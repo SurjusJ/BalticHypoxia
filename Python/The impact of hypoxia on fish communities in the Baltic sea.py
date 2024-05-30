@@ -48,15 +48,6 @@ TO_OXY_GLOBAL = 'TO_OXY_GLOBAL.csv'
 chemin_complet = os.path.join(LOCATION_Data, TO_OXY_GLOBAL)               
 TO_OXY_GLOBAL=pd.read_csv(chemin_complet)
 
-# --> Trawl Torsk
-TRAWL_TO_OXY = 'TRAWL_TO_OXY.csv'                                                
-chemin_complet = os.path.join(LOCATION_Data, TRAWL_TO_OXY)               
-TRAWL_TO_OXY=pd.read_csv(chemin_complet)  
-
-TRAWL_TO_OXY_GLOBAL = 'TRAWL_TO_OXY_GLOBAL.csv'                         
-chemin_complet = os.path.join(LOCATION_Data, TRAWL_TO_OXY_GLOBAL)       
-TRAWL_TO_OXY_GLOBAL=pd.read_csv(chemin_complet)
-
 # --> Stomach Cod
 STO_COD_OXY = 'STO_COD_OXY.csv' 
 chemin_complet = os.path.join(LOCATION_Data, STO_COD_OXY)     
@@ -125,9 +116,6 @@ SK_OXY_GLOBAL = INDEX_GLOBAL(SK_OXY_GLOBAL)
 # --> Torsk                                            
 TO_OXY = INDEX(TO_OXY)                                                     
 TO_OXY_GLOBAL = INDEX_GLOBAL(TO_OXY_GLOBAL)     
-# --> Trawl Torsk                                       
-TRAWL_TO_OXY = INDEX(TRAWL_TO_OXY)                                                  
-TRAWL_TO_OXY_GLOBAL = INDEX_GLOBAL(TRAWL_TO_OXY_GLOBAL) 
 # --> Stomach Cod                              
 STO_COD_OXY = INDEX(STO_COD_OXY)                                                     
 STO_COD_OXY_GLOBAL = INDEX_GLOBAL(STO_COD_OXY_GLOBAL)    
