@@ -1136,12 +1136,12 @@ def PLOT_PROBABILITY_OVERLEAF(PROBA_EM , PROBA_TH , specie , year) :
     plt.legend(loc='upper center', bbox_to_anchor=(0.5, -0.04),ncol=3,fontsize=12)
     if specie=="COD" or specie=="FLOUNDER":
         if year==OXY_opti["Max"]:
-            plt.text(0.02, 0.98, 'C', transform=plt.gca().transAxes, fontsize=16, fontweight='bold', va='top')
+            plt.text(0.02, 0.98, 'A', transform=plt.gca().transAxes, fontsize=16, fontweight='bold', va='top')
     if specie=="HERRING" or specie=="SPRAT":
         if year==OXY_opti["Min"]:
-            plt.text(0.02, 0.98, 'C', transform=plt.gca().transAxes, fontsize=16, fontweight='bold', va='top')
+            plt.text(0.02, 0.98, 'A', transform=plt.gca().transAxes, fontsize=16, fontweight='bold', va='top')
         if year==OXY_opti["Max"]:
-            plt.text(0.02, 0.98, 'D', transform=plt.gca().transAxes, fontsize=16, fontweight='bold', va='top')
+            plt.text(0.02, 0.98, 'B', transform=plt.gca().transAxes, fontsize=16, fontweight='bold', va='top')
     plt.show()
     
     ################################# RESULTS ################################
@@ -1246,9 +1246,9 @@ def PLOT_PROBABILITY_EVOLUTION_SPECIE(specie , PROBA_PLOT_EM , PROBA_PLOT_TH , P
     plt.legend(loc="upper center", bbox_to_anchor=(0.5, -0.135), fancybox=True, ncol=4, fontsize=12)
     plt.subplots_adjust(bottom=0.22) 
     if specie=="COD" or specie=="FLOUNDER":
-        plt.text(0.02, 0.98, 'D', transform=plt.gca().transAxes, fontsize=16, fontweight='bold', va='top')
+        plt.text(0.02, 0.98, 'B', transform=plt.gca().transAxes, fontsize=16, fontweight='bold', va='top')
     if specie=="HERRING" or specie=="SPRAT":
-        plt.text(0.02, 0.98, 'E', transform=plt.gca().transAxes, fontsize=16, fontweight='bold', va='top')
+        plt.text(0.02, 0.98, 'C', transform=plt.gca().transAxes, fontsize=16, fontweight='bold', va='top')
     
     
     ################################# RESULTS #################################
