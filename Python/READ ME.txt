@@ -1,0 +1,119 @@
+################################################################################
+#################################### PYTHON ####################################
+################################################################################
+
+################################## .py FILES ###################################
+
+##### JUPYTER #####
+###
+0 Jupyter code.py : files which stores the complete jupyter code of the notebook batsea
+
+###
+0 Jupyter code - SAME ICES -2.py : files which stores the complete jupyter code for the same ICES (notebook SAME ICES)
+
+
+##### OVERLEAF #####
+### 
+1 Treatment - Clean code - Overleaf.py 
+	--> Creation of the graphs : 	Average Hypoxic zone Area and Volume from 1979 to 2018
+					Evolution of abundance classes of Sprat and Herring 1991 from to 2018
+thanks to the files :
+	'OXY.csv'
+	'OXY_GLOBAL.csv' 
+	'SK_OXY.csv' 
+	'SK_OXY_GLOBAL.csv'   
+	'TO_OXY.csv' 
+	'TO_OXY_GLOBAL.csv'  
+	'TRAWL_TO_OXY.csv'   
+	'TRAWL_TO_OXY_GLOBAL.csv'    
+	'STO_COD_OXY.csv' 
+	'STO_COD_OXY_GLOBAL.csv'
+	'STO_FLE_OXY.csv'   
+	'STO_FLE_OXY_GLOBAL.csv'   
+	'AB_S_OXY.csv'       
+	'AB_S_OXY_GLOBAL.csv'
+	'AB_H_OXY.csv'
+	'AB_H_OXY_GLOBAL.csv' 
+
+###
+2 Stomach - Clean code - Overleaf.py		
+	--> Creation of the graphs :	Evolution of the number of prey species absent by ICES for Cod and Fletcher
+					Evolution of the proportion of prey quantity by ICES for Cod and Fletcher
+					Evolution of predators weight for Cod and Fletcher
+					Evolution of preys weight for Cod and Fletcher
+thanks to the files :
+	'STO_COD_OXY.csv' 
+	'STO_FLE_OXY.csv'   
+
+###
+5 Probability - Clean code - Overleaf.py		
+	--> Creation of the graphs :	Oxygen concentration map in 1993* and 2015**
+					Oxygen concentration map in 1993* and 2015** for Cod and Fletcher samples zone
+					Oxygen concentration map in 1993* and 2015** for Sprat and Herring samples zone
+					Empirical and theorical probability for Cod, Fletcher, Sprat and Herring to be in location with a specific oxygen concentration in 1993* and 2015**
+					Evolution of empirical and theorical probability for Cod, Fletcher, Sprat and Herring
+*  : 1993 (lowest average hypoxic area)
+** : 2015 (highest average hypoxic area)
+
+thanks to the files :
+	'PROBA_COD_EM.csv'
+	'PROBA_COD_TH.csv'
+  	'PROBA_FLETCHER_EM.csv'
+	'PROBA_FLETCHER_TH.csv'
+	'PROBA_SPRAT_EM.csv'
+	'PROBA_SPRAT_TH.csv'
+	'PROBA_HERRING_EM.csv'
+	'PROBA_HERRING_TH.csv'
+	'COD_ICES.csv'
+	'FLETCHER_ICES.csv'
+	'SPRAT_ICES.csv'
+	'HERRING_ICES.csv'
+	'OXY_MAP.csv'
+
+
+##### OUTPOUT FILES #####
+TYPE : 
+	FILE_OXY --> Stores data whit average for each combinaison Year-ICES
+	FILE_OXY_GLOBAL --> Stores data whit average for each combinaison Year
+	SPECIE_ICES --> Stores all the location
+	PROBA_SPECIE_EM --> Stores all the empirical probability
+	PROBA_SPECIE_TH --> Stores all the theorical probability
+
+# --> .csv
+	OXYGEN :
+		OXY.csv
+		OXY_GLOBAL.csv
+		OXY_MAP.csv					--> Stores oxygen datas with latitude and longitude informations
+	FLETCHER (SKRUBBA) :
+		SK_OXY.csv
+		SK_OXY_GLOBAL.csv
+		FLETCHER_ICES.csv
+  		PROBA_FLETCHER_EM.csv
+		PROBA_FLETCHER_TH.csv
+	COD (TORSK) : 
+		TO_OXY.csv
+		TO_OXY_GLOBAL.csv
+		COD_ICES.csv
+		PROBA_COD_EM.csv
+		PROBA_COD_TH.csv
+	STOMACH : (by species : COD=cod, FLE=fletcher )
+		STO_COD_OXY.csv
+		STO_COD_OXY_GLOBAL.csv
+		STO_FLE_OXY.csv
+		STO_FLE_OXY_GLOBAL.csv
+	TRAWL TORSK : 
+		TRAWL_TO_OXY.csv
+		TRAWL_TO_OXY_GLOBAL.csv
+	SPRAT :
+		AB_S_OXY.csv
+		AB_S_OXY_GLOBAL.csv
+		SPRAT_ICES.csv
+		PROBA_SPRAT_EM.csv
+		PROBA_SPRAT_TH.csv
+	HERRING :
+		AB_H_OXY.csv
+		AB_H_OXY_GLOBAL.csv
+		HERRING_ICES.csv
+		PROBA_HERRING_EM.csv
+		PROBA_HERRING_TH.csv
+
