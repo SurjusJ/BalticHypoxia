@@ -17,8 +17,7 @@ import matplotlib.colors as mcolors
 ############################## CALLING THE FILES ##############################
 ###############################################################################
 ##### LOCATION OF ALL THE DATA #####
-# LOCATION_Data=r"..\Python" 
-LOCATION_Data=r"D:\JJJJJJJ\Documents\STAGE-EAWAG\BalticHypoxia-main\Python"    # Path for oxygen 
+LOCATION_Data=r"..\Python" 
 
 ##### OPEN FILES ######
 # --> Oxygen
