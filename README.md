@@ -2,7 +2,7 @@
 The impact of hypoxia on fish communities in the Baltic sea  --  Impact de l'hypoxie sur les communautés de poissons de mer Baltique
 
 
-##################################################### FOLDERS #####################################################
+################################ FOLDERS ################################
 
 ##### JUPYTER #####
 --> Contains the jupyter notebook  --  Contiens le notebook jupyter
